@@ -1,0 +1,11 @@
+# Put your ngrok auth token here, if you don't know how to get one, join
+# our discord (https://discord.gg/tuKjcycH8F) and we can help you set it up,
+# and there are additional instructions on our spigot page.
+ngrok-authtoken: "placeyourauthtokenhere"
+
+# Change this delay depending on how fast your computer is, if
+# the tunnel keeps giving errors on start, raise this number.
+# It is the number of ticks (tick = 20th of a second) until the
+# IP is displayed, if this is too short then the IP won't load correctly.
+# We recommend not changing it unless told to from our discord (https://discord.gg/tuKjcycH8F)
+delay: 100

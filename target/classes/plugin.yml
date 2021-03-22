@@ -1,0 +1,4 @@
+name: OpenTunnels
+version: 1.0-SNAPSHOT
+main: dev.yhdiamond.opentunnels.OpenTunnels
+api-version: 1.16
