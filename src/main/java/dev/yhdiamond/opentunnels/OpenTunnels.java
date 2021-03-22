@@ -106,7 +106,9 @@ public final class OpenTunnels extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        run.destroyForcibly();
+        if (run != null) {
+            run.destroyForcibly();
+        }
     }
 
     public static void downloadFile(File file, String urlString) throws IOException {
